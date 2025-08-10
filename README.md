@@ -1,22 +1,22 @@
-# CsStrike
+#CsStrike
 
-CsStrike adalah tool ringkas dan basic dari CsCrew untuk tujuan testing kestabilan server dan bypass protection seperti Cloudflare.
+CsStrike is a lightweight and straightforward tool developed by CsCrew for testing server stability and bypassing protections such as Cloudflare.
 
-Tool ini akan hantar ribuan request rawak dengan kombinasi User-Agent, IP spoof, dan HTTP method (GET, POST, PUT, DELETE). Ia juga mampu detect WAF secara automatik.
+It works by sending thousands of randomized requests using a mix of User-Agent headers, IP spoofing, and various HTTP methods (GET, POST, PUT, DELETE). The tool can also automatically detect Web Application Firewalls (WAFs).
 
-Contoh penggunaan:
+Usage Instructions:
 
-1. Install dulu jika perlu:
-   pip install aiohttp colorama pyfiglet
+    Install the required dependencies (if you haven't already):
+    pip install aiohttp colorama pyfiglet
 
-2. Run:
-   python csstrike.py
+    Run the script:
+    python csstrike.py
 
-3. Masukkan URL:
-   https://example.com
+    Enter the target URL when prompted:
+    https://example.com
 
-Tool ini akan jalan secara automatik dan log status setiap request.
+The tool will then operate automatically, logging the status of each request in real time.
 
-Kegunaan hanya untuk pentesting sah, audit keselamatan, atau ujian load pada sistem sendiri. Dilarang guna pada sistem orang tanpa kebenaran.
+Important: This tool is intended solely for legitimate penetration testing, security audits, or load testing on systems you own or have explicit permission to test. Unauthorized use on other systems is strictly prohibited.
 
-Dibuat oleh Adxxmwashere atau Adxxm untuk CsCrew dan juga untuk anda diluar sana
+Developed by Adxxmwashere (Adxxm) for CsCrew and for anyone interested in ethical security testing.
