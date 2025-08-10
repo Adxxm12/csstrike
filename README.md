@@ -1,4 +1,4 @@
-#CsStrike
+CsStrike
 
 CsStrike is a lightweight and straightforward tool developed by CsCrew for testing server stability and bypassing protections such as Cloudflare.
 
